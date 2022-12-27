@@ -5,7 +5,7 @@
       "age": "20-25",
       "time": "1min",
       "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health.",
-      "img" :"https://ibb.co/HtxfLFP"
+      "img" :"https://i.ibb.co/CPCGRDK/3.jpg"
     },
     {
       "id": "2",
@@ -13,7 +13,7 @@
       "age": "20-25",
       "time": "30s",
       "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health.",
-      "img" : "https://ibb.co/wcDkVwY"
+      "img" : "https://i.ibb.co/g39gb34/4.jpg"
     },
     {
       "id": "3",
@@ -21,7 +21,7 @@
       "age": "20-25",
       "time": "40s",
       "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health.",
-      "img" : "https://ibb.co/CmRTsts"
+      "img" : "https://i.ibb.co/gSX6TK1/5.jpg"
     },
     {
       "id": "4",
@@ -29,7 +29,7 @@
       "age": "20",
       "time": "40s",
       "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health.",
-      "img" : "https://ibb.co/FsbVzLX"
+      "img" : "https://i.ibb.co/ncbWwdt/6.jpg"
     },
     {
       "id": "5",
@@ -37,7 +37,7 @@
       "age": "18+",
       "time": "50s",
       "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health",
-      "img" : "https://ibb.co/DDdzprQ"
+      "img" : "https://i.ibb.co/17NBn5b/pushup.jpg"
     },
     {
       "id": "6",
@@ -45,7 +45,7 @@
       "age": "20",
       "time": "40s",
       "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health",
-      "img" : "https://ibb.co/frSVt35"
+      "img" : "https://i.ibb.co/dKm2ZB0/Squats.jpg"
     }
    
   ]

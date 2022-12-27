@@ -1,0 +1,15 @@
+.product{
+    width: 286px;
+    height: 450px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color:beige;
+}
+.product img{
+    width: 280px;
+    height: 160px;
+    border-radius: 15px;
+}
+.product-info{
+    margin: 0 13px;
+}
