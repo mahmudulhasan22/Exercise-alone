@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './Cart.css'
+import './Cart.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Cart = (props) => {
     const{cart} =props;
     const[count , setCount] = useState(0);
@@ -14,6 +16,8 @@ const Cart = (props) => {
     for(const product of cart){
         total = total + parseInt(product.time) ;
     }
+
+    const notifyToast = () => toast("wow ! well done.");
 
     return (
         <div className='cart'>
@@ -46,7 +50,8 @@ const Cart = (props) => {
             <h2>Exercise Details</h2>
             <h3 className='exercise-time'>Exercise Time : {total}</h3>
             <h3 className='break-time'>Break Time : {count}</h3>
-            <button className='activity-btn'> Activity Completed</button>
+            <button onClick={notifyToast} className='activity-btn'> Activity Completed</button>
+            <ToastContainer />
 
         </div>
     );
