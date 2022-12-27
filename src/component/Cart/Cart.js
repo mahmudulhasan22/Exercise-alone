@@ -2,9 +2,19 @@ import React, { useEffect, useState } from 'react';
 import './Cart.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+const  getLocalItems = () => {
+    let breakTime = localStorage.getItem('Break Time');
+    if(breakTime){
+        return JSON.parse(localStorage.getItem('Break Time'));
+    }
+    else{
+        return [];
+    }
+}
 const Cart = (props) => {
     const{cart} =props;
-    const[count , setCount] = useState(0);
+    const[count , setCount] = useState(getLocalItems());
 
     const increaseCount = () => setCount(10);
     const increaseCount20 = () => setCount(20);
@@ -12,6 +22,10 @@ const Cart = (props) => {
     const increaseCount40 = () => setCount(40);
     const increaseCount50 = () => setCount(50);
     
+    useEffect(()=>{
+        localStorage.setItem('Break Time', JSON.stringify(count))
+    },[count]);
+
     let total = 0 ;
     for(const product of cart){
         total = total + parseInt(product.time) ;
