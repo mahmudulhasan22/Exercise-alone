@@ -1,0 +1,51 @@
+[
+    {
+      "id": "1",
+      "exerciseName": "pushup",
+      "age": "20-25",
+      "time": "1min",
+      "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health.",
+      "img" :"https://ibb.co/HtxfLFP"
+    },
+    {
+      "id": "2",
+      "exerciseName": "Squats",
+      "age": "20-25",
+      "time": "30s",
+      "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health.",
+      "img" : "https://ibb.co/wcDkVwY"
+    },
+    {
+      "id": "3",
+      "exerciseName": "Dumbbell rows",
+      "age": "20-25",
+      "time": "40s",
+      "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health.",
+      "img" : "https://ibb.co/CmRTsts"
+    },
+    {
+      "id": "4",
+      "exerciseName": "Side planks",
+      "age": "20",
+      "time": "40s",
+      "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health.",
+      "img" : "https://ibb.co/FsbVzLX"
+    },
+    {
+      "id": "5",
+      "exerciseName": " Planks",
+      "age": "18+",
+      "time": "50s",
+      "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health",
+      "img" : "https://ibb.co/DDdzprQ"
+    },
+    {
+      "id": "6",
+      "exerciseName": "Glute bridge",
+      "age": "20",
+      "time": "40s",
+      "details": "Exercise involves engaging in physical activity and increasing the heart rate beyond resting levels. It is an important part of preserving physical and mental health",
+      "img" : "https://ibb.co/frSVt35"
+    }
+   
+  ]
