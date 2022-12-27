@@ -2,3 +2,62 @@
     top: 25px;
     position: sticky;
 }
+.my-info{
+    text-align: center;
+}
+.my-info h2{
+    margin-bottom: -15px;
+   
+}
+.personal-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    background-color: rgb(243, 242, 242);
+    border-radius: 20px;
+}
+.personal{
+    margin-bottom: -15px;
+}
+.breakTime-part{
+   background-color: rgb(243, 242, 242) ;
+   border-radius: 15px;
+   padding: 10px 30px;
+   height: 50px;
+   margin-top:-15px;
+}
+.btn-break button{
+    border: none;
+    background-color:rgb(4, 80, 221);
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+.btn-break button:hover{
+    background-color: rgb(2, 122, 192) ;
+}
+.exercise-time{
+    background-color:rgb(243, 242, 242);
+    padding: 15px 10px; 
+}
+.break-time{
+    background-color:rgb(243, 242, 242);
+    padding: 15px 10px;
+}
+.activity-btn{
+    border: none;
+    background-color: rgb(4, 80, 221);
+    width: 80%;
+    padding: 15px 10px;
+    margin-left: 40px;
+    color: white;
+    font-size: medium;
+    border-radius: 20px;
+}
+.activity-btn:hover{
+    background-color: greenyellow;
+    color: black;
+}

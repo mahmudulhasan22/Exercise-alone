@@ -6,14 +6,13 @@ const Cart = () => {
             <div className="my-info">
                 <h2>Mahmudul Hasan</h2>
                 <p>
-                    Munshiganj, Bangladesh.
+                    Munshiganj, Bangladesh
                 </p>
             </div>
-            <div className="age-info">
-                <h3>75kg</h3>
-                <h3>5.2</h3>
-                <h3>21Yrs</h3>
-
+            <div className="personal-info">
+                <h3 className='personal'>75kg</h3>
+                <h3 className='personal'>5.2</h3>
+                <h3 className='personal'>21Yrs</h3>
                 <p>Weight</p>
                 <p>Height</p>
                 <p>Age</p>
