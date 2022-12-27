@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.header img {
+    width: 100px;
+    height: 90px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.menu :hover{
+    color: cornflowerblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu a{
+        display: none;
+    }
+}
